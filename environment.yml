@@ -1,0 +1,15 @@
+name: cad_app
+channels:
+  - cadquery
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - cadquery=master
+  - streamlit
+  - trimesh
+  - plotly
+  - scipy
+  - numpy
+  - shapely
+  - path
